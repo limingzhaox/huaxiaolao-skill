@@ -1,0 +1,1597 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title": "白天看见月亮，它没下班吗？",
+    "audience": "看过白天月亮、想弄清原因的一般观众；无需先懂月相名词。",
+    "promise": "看完能用“月亮反射太阳光、与太阳可同在当地天空、亮面要能被背景辨出”解释白天月亮，并说明为什么新月并不好找。",
+    "comprehension_question": "新月也常跟太阳同在白天天空，为什么通常看不见？",
+    "comprehension_answer": "只在地平线上方还不够。新月朝向地球的面基本未被太阳直接照亮，从地球看又靠近太阳方向，通常难以在亮天空中辨出。",
+    "video_execution": false,
+    "drawing_execution": false,
+    "version": "moon-v01-text-handoff",
+    "duration_status": "provisional_no_recording",
+    "character": {
+      "owner": "user",
+      "known_identity": "用户自创圆脸小猫",
+      "identity_reference_status": "not_provided",
+      "reference_path": null,
+      "name_colors_clothes": "未提供，不擅自定稿。作画前按用户原图补齐，不替换成旧女孩或参考作者角色。"
+    },
+    "voice_and_bgm_owner": "user"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "layout": "portrait-horizontal",
+    "stage": {
+      "x": 60,
+      "y": 460,
+      "width": 960,
+      "height": 640
+    },
+    "title_box": {
+      "x": 90,
+      "y": 220,
+      "width": 900,
+      "height": 170
+    },
+    "subtitle_box": {
+      "x": 90,
+      "y": 1220,
+      "width": 900,
+      "height": 260
+    },
+    "platform_ui_safe_area_status": "发布平台未给定；以上为内部起稿盒，发布前按实际平台核对。"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "日常看到的月面亮光主要是月球表面反射的太阳光；昼间也使用同一光路。",
+      "kind": "fact",
+      "verification": "verified",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/solar-system/why-can-you-see-the-moon-during-the-day-we-asked-a-nasa-scientist-episode-19/",
+          "locator": "正文视频文字稿，第2段（Unlike our Sun开头）；网页提取L257–259",
+          "supports": "月球不靠自身发出的可见光照亮月面，白天与夜间均可见其反射的太阳光。"
+        }
+      ],
+      "limits": "本集讲肉眼看到的太阳照亮月面，不展开地照或月球热辐射；不把月面画成镜面或自身灯泡。",
+      "voice_line_ids": [
+        "V03"
+      ],
+      "scene_ids": [
+        "S02"
+      ]
+    },
+    {
+      "id": "C02",
+      "statement": "地球自转会让地表观察者所在地区迎向或背向太阳，形成昼夜。",
+      "kind": "fact",
+      "verification": "verified",
+      "sources": [
+        {
+          "url": "https://www.lpi.usra.edu/education/skytellers/day_night/",
+          "locator": "Why Does Earth Have Day and Night? 首段；网页提取L68–69",
+          "supports": "地球自转把观察者带到迎着太阳或背向太阳的一侧，产生昼夜；从北极上方看自转逆时针。"
+        }
+      ],
+      "limits": "用远离极昼极夜和晨昏边界的一般昼间情境；不是地球绕太阳一次形成一天。",
+      "voice_line_ids": [
+        "V04"
+      ],
+      "scene_ids": [
+        "S03"
+      ]
+    },
+    {
+      "id": "C03",
+      "statement": "白天时，月亮也可能位于观察者的地平线上方，太阳和月亮可以同时处于其地面可见的天空。",
+      "kind": "fact",
+      "verification": "verified",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/solar-system/why-can-you-see-the-moon-during-the-day-we-asked-a-nasa-scientist-episode-19/",
+          "locator": "正文视频文字稿，第2段（Unlike our Sun开头）；网页提取L257–259",
+          "supports": "月亮在白天天空中出现是正常现象。"
+        },
+        {
+          "kind": "derivation",
+          "locator": "本包S03平面几何示意；忽略折射与遮挡",
+          "supports": "同一观察点的地平线上方可同时包含太阳方向和月亮方向，两者无须互斥。",
+          "method": "地球截面圆心E=(540,400)、半径90，观察点P=E+90*(-1,-1)/sqrt(2)。当地天顶向量n=(-1,-1)/sqrt(2)。太阳方向s=(-1,0)，n·s>0；月球示意位置M=(530,100)，n·(M-P)>0。太阳与月球方向均在当地地平线上方。"
+        }
+      ],
+      "limits": "“在上方”只是能看见的必要条件之一；不保证一直可见。图不按距离或尺寸比例，不处理地形、折射、天气。",
+      "voice_line_ids": [
+        "V05",
+        "V09"
+      ],
+      "scene_ids": [
+        "S03",
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "id": "C04",
+      "statement": "月球绕地球运动，月球与太阳在地球天空中的相对方向会变化，月亮没有与太阳固定互换的升落时刻。",
+      "kind": "fact",
+      "verification": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/moon/moon-phases/",
+          "locator": "3 Quick Facts；New Moon；Daytime Moons；Overview From Space；网页提取L292–324、L332–339、L382–404",
+          "supports": "月球轨道运动、不同月相对应不同的大致升落时段；白天可见时段与月相、季节和地点相关。"
+        }
+      ],
+      "limits": "不报每日固定推迟几分钟，不把不同日期位置跳切当作实时速度；不提供本地观测预报。",
+      "voice_line_ids": [
+        "V06"
+      ],
+      "scene_ids": [
+        "S04"
+      ]
+    },
+    {
+      "id": "C05",
+      "statement": "白天天空受散射太阳光照亮，降低月面与背景的显眼程度；在适当条件下仍能辨认月亮。",
+      "kind": "fact",
+      "verification": "verified",
+      "sources": [
+        {
+          "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+          "locator": "The Short Answer；正文关于大气散射的段落；网页提取L13–15、L36–46",
+          "supports": "太阳光进入大气后被空气分子等散射，形成明亮的白天天空。"
+        },
+        {
+          "url": "https://www.nasa.gov/solar-system/why-can-you-see-the-moon-during-the-day-we-asked-a-nasa-scientist-episode-19/",
+          "locator": "正文视频文字稿，第2段（Unlike our Sun开头）；网页提取L257–259",
+          "supports": "明亮的白天天空中，条件与天空位置合适时月亮仍足够明显，可被看见。"
+        }
+      ],
+      "limits": "相同月面加两种背景是阅读对比示意，不是亮度测量。并非月球白天熄灭或变透明；可见性还随月相、天空状况、太阳角距等改变。",
+      "voice_line_ids": [
+        "V08",
+        "V09",
+        "V12"
+      ],
+      "scene_ids": [
+        "S05",
+        "S07"
+      ]
+    },
+    {
+      "id": "C06",
+      "statement": "新月时，月球通常与太阳大致同升落，面向地球的一面基本没有被太阳直接照亮，从地球看又接近太阳方向，通常肉眼看不见。",
+      "kind": "fact",
+      "verification": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/moon/moon-phases/",
+          "locator": "New Moon段；Daytime Moons最后一项；网页提取L332–333、L389–397",
+          "supports": "New Moon与Daytime Moons条目支持新月的相对位置、照亮方向、同升落与不可见性。"
+        }
+      ],
+      "limits": "讲通常新月，不展开地照和日食；轨道有倾角，不把每次新月画成精确遮住太阳；“基本”不写成整个月球没有被照亮。",
+      "voice_line_ids": [
+        "V10",
+        "V11"
+      ],
+      "scene_ids": [
+        "S06"
+      ]
+    },
+    {
+      "id": "M01",
+      "statement": "小猫以为太阳和月亮要交接班，掏出排班表催月亮下班。",
+      "kind": "metaphor",
+      "verification": "fictional",
+      "sources": [],
+      "limits": "这是小猫本集的误判与道具，不声称观众普遍如此理解，不用排班表解释真实轨道。",
+      "voice_line_ids": [
+        "V01",
+        "V02",
+        "V06",
+        "V07",
+        "V10",
+        "V12"
+      ],
+      "scene_ids": [
+        "S01",
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ]
+    }
+  ],
+  "voice_lines": [
+    {
+      "id": "V01",
+      "text": "大白天，小猫发现月亮还挂在天上。",
+      "claim_ids": [
+        "M01",
+        "C03"
+      ]
+    },
+    {
+      "id": "V02",
+      "text": "它掏出排班表。太阳都来了，你怎么还没下班？",
+      "claim_ids": [
+        "M01"
+      ]
+    },
+    {
+      "id": "V03",
+      "text": "先别催。月亮本身不发光，我们看见的月光，主要是它反射的太阳光。白天也是这样。",
+      "claim_ids": [
+        "C01"
+      ]
+    },
+    {
+      "id": "V04",
+      "text": "再把镜头拉远。地球转动，小猫所在的地方迎着太阳，就是白天。",
+      "claim_ids": [
+        "C02"
+      ]
+    },
+    {
+      "id": "V05",
+      "text": "这时，月亮也可能在小猫的地平线上方。太阳和月亮，完全可以同时出现在它的天空里。",
+      "claim_ids": [
+        "C03"
+      ]
+    },
+    {
+      "id": "V06",
+      "text": "月亮还在绕地球走，跟太阳在天空里的相对位置会变，可没有固定的交接班时间。",
+      "claim_ids": [
+        "C04",
+        "M01"
+      ]
+    },
+    {
+      "id": "V07",
+      "text": "小猫又问，那我怎么经常找不着？",
+      "claim_ids": [
+        "M01"
+      ]
+    },
+    {
+      "id": "V08",
+      "text": "白天，大气散射太阳光，让天空变亮。月亮的亮面就没那么显眼了。不过条件合适，仍然能看见。",
+      "claim_ids": [
+        "C05"
+      ]
+    },
+    {
+      "id": "V09",
+      "text": "所以要过两关。月亮得在地平线上方，亮面还得能从背景里辨出来。这里先不考虑遮挡。",
+      "claim_ids": [
+        "C03",
+        "C05"
+      ]
+    },
+    {
+      "id": "V10",
+      "text": "小猫来了精神。新月跟太阳差不多一起升落，白天最好找？",
+      "claim_ids": [
+        "M01",
+        "C06"
+      ]
+    },
+    {
+      "id": "V11",
+      "text": "这回又猜反了。新月时，月球朝向地球的这一面基本没被太阳照亮；它看起来又靠近太阳的方向，通常看不见。",
+      "claim_ids": [
+        "C06"
+      ]
+    },
+    {
+      "id": "V12",
+      "text": "小猫改口了。白天看见月亮很正常。能不能看见，要看位置，也要看可见条件。",
+      "claim_ids": [
+        "M01",
+        "C03",
+        "C05"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "A01",
+      "path": "assets/planned/scene/day-background.png",
+      "kind": "scene",
+      "status": "planned",
+      "drawing_id": "D01",
+      "spec": "开场白天天空与简洁地面；太阳图标在左上，留足左右视线空间；不画完整温馨风景。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": false,
+      "registration": "stage_origin",
+      "anchors": {
+        "stage_origin": [
+          0,
+          0
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A02",
+      "path": "assets/planned/diagram/daytime-moon.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D02",
+      "spec": "右上淡灰月亮亮面，局部环形山只保留两三块；月面无拟人脸、无自身发光光晕。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "moon_center": [
+          730,
+          160
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A03",
+      "path": "assets/planned/cat/look-up.png",
+      "kind": "character",
+      "status": "planned",
+      "drawing_id": "D03",
+      "spec": "小猫左侧仰头，视线朝月亮，眼睁大但身体尚稳定。身份严格按用户未来提供的圆脸小猫原图。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "feet": [
+          170,
+          600
+        ],
+        "gaze_target": [
+          730,
+          160
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A04",
+      "path": "assets/planned/cat/scold-body.png",
+      "kind": "character",
+      "status": "planned",
+      "drawing_id": "D04",
+      "spec": "同机位身体前倾，眉压低、嘴张开，左爪托表，右爪指月亮；不只改嘴。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "feet": [
+          170,
+          600
+        ],
+        "grip": [
+          245,
+          435
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A05",
+      "path": "assets/planned/prop/schedule.png",
+      "kind": "prop",
+      "status": "planned",
+      "drawing_id": "D05",
+      "spec": "空白排班表道具，文字独立后加；原始握持点固定。只在小剧场出现。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "grip": [
+          245,
+          435
+        ],
+        "floor_rest": [
+          300,
+          584
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A06",
+      "path": "assets/planned/cat/scold-front-paw.png",
+      "kind": "occluder",
+      "status": "planned",
+      "drawing_id": "D04",
+      "spec": "从A04同一独立画稿精确复制前爪区域，叠在表格之上，不另算一次独立绘画。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "grip": [
+          245,
+          435
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A07",
+      "path": "assets/planned/diagram/light-path-base.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D06",
+      "spec": "左上为太阳方向、中为月球、右上为小猫眼睛图标；月面受光来自左上。不把月球画成镜子。月球示意半径60。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "sun_direction": [
+          90,
+          100
+        ],
+        "moon_center": [
+          450,
+          280
+        ],
+        "eye": [
+          825,
+          100
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A08",
+      "path": "assets/planned/diagram/sunlight-to-moon.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D07",
+      "spec": "从左上太阳方向指向月面上方受光区域的入射箭头；箭头与月表相接，不穿过月球当透明球。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "hit": [
+          450,
+          220
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A09",
+      "path": "assets/planned/diagram/moonlight-to-eye.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D08",
+      "spec": "月表上方受光点向外半空间漫反射数条，其中一条斜向右上到眼睛；标“示意，非镜面反射”。入射与出射段均不穿月球，眼睛能看见这个受光点。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "hit": [
+          450,
+          220
+        ],
+        "eye": [
+          825,
+          100
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A10",
+      "path": "assets/planned/diagram/earth-day-observer.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D09",
+      "spec": "地球截面E=(540,400)、r=90，左昼右夜，P=E+90*(-1,-1)/sqrt(2)为小猫位置；自转箭头标北极上方视角，符号放圆外。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "earth_center": [
+          540,
+          400
+        ],
+        "observer": [
+          476.36,
+          336.36
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A11",
+      "path": "assets/planned/diagram/local-horizon-both-up.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D10",
+      "spec": "沿P画当地地平线x+y=812.72；可见一侧朝左上。月球M=(530,100)，太阳方向向左；两条视线都在地平线上方。月球左侧受光。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "observer": [
+          476.36,
+          336.36
+        ],
+        "moon_center": [
+          530,
+          100
+        ],
+        "horizon_normal": [
+          -0.707107,
+          -0.707107
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A12",
+      "path": "assets/planned/diagram/relative-position-a.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D11",
+      "spec": "换为轨道俯视，太阳在左、地球(500,330)、月球(500,110)；独立标“某一天”。显示月球左半受光。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "earth_center": [
+          500,
+          330
+        ],
+        "sun_direction": [
+          80,
+          330
+        ],
+        "moon_center": [
+          500,
+          110
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A13",
+      "path": "assets/planned/diagram/relative-position-b.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D12",
+      "spec": "保持A12太阳地球与轨道，月球切到(720,330)，标“另一天”；月球仍左半受光。两个日期切换不暗示实际速度。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "earth_center": [
+          500,
+          330
+        ],
+        "sun_direction": [
+          80,
+          330
+        ],
+        "moon_center": [
+          720,
+          330
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A14",
+      "path": "assets/planned/cat/search.png",
+      "kind": "character",
+      "status": "planned",
+      "drawing_id": "D13",
+      "spec": "小猫抬头四处找，眉拧住、肩耸、眼睛眯成不一样的弧，手掌遮额但不指向太阳；不改变身份识别点。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "feet": [
+          170,
+          600
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A15",
+      "path": "assets/planned/diagram/atmosphere-scattering.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D14",
+      "spec": "横向解释太阳光进入大气后分向多个方向，眼睛接到天空散射光；用稀少点与方向线，不画空气小人加工光。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "in_ray": [
+          100,
+          240
+        ],
+        "scatter_point": [
+          475,
+          290
+        ],
+        "eye": [
+          820,
+          420
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A16",
+      "path": "assets/planned/diagram/background-contrast.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D15",
+      "spec": "横向两幅小天空：左暗背景、右亮蓝背景；同一月亮亮面复制相同RGB、大小和形状，只有背景改变。不可把右侧月亮降低透明度。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "left_moon": [
+          300,
+          230
+        ],
+        "right_moon": [
+          700,
+          230
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A17",
+      "path": "assets/planned/diagram/two-conditions.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D16",
+      "spec": "横向两条简短关系，位置门为地平线上方，辨认门为亮面与背景对比；标签后加，不画真正宇宙闸门。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "left_condition": [
+          320,
+          280
+        ],
+        "right_condition": [
+          710,
+          280
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A18",
+      "path": "assets/planned/cat/eureka.png",
+      "kind": "character",
+      "status": "planned",
+      "drawing_id": "D17",
+      "spec": "小猫重新挺胸、眼亮，食指举起提出新月猜测；夸张的是自信，知识还未判真。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "feet": [
+          170,
+          600
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A19",
+      "path": "assets/planned/diagram/new-moon-space.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D18",
+      "spec": "太阳方向左、月球近太阳方向、地球右；月球向太阳面亮、向地球面暗。月球位置略离直接太阳—地球连线，标示意，不把每次新月画成日食。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "sun_direction": [
+          80,
+          280
+        ],
+        "moon_center": [
+          450,
+          255
+        ],
+        "earth_center": [
+          790,
+          320
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A20",
+      "path": "assets/planned/diagram/new-moon-ground-view.png",
+      "kind": "diagram",
+      "status": "planned",
+      "drawing_id": "D19",
+      "spec": "亮天空里不画肉眼可见黑圆盘；用独立虚线位置提示标“位置提示，非实际可见轮廓”，太阳只在框外标方向。小角示意说明朝向地球面暗。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "hint_center": [
+          570,
+          240
+        ],
+        "sun_direction_offscreen": [
+          960,
+          200
+        ]
+      },
+      "identity_reference_required": false
+    },
+    {
+      "id": "A21",
+      "path": "assets/planned/cat/embarrassed.png",
+      "kind": "character",
+      "status": "planned",
+      "drawing_id": "D20",
+      "spec": "新月解释到达后，小猫耳朵向外、肩下沉，嘴缩小，眼神避开表格；一滴汗有触发。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "feet": [
+          170,
+          600
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A22",
+      "path": "assets/planned/cat/point-summary.png",
+      "kind": "character",
+      "status": "planned",
+      "drawing_id": "D21",
+      "spec": "小猫身形恢复、左右爪分别指两条条件，嘴角轻收；无胜利星星，身份仍按用户原图。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": true,
+      "registration": "stage_origin",
+      "anchors": {
+        "feet": [
+          170,
+          600
+        ],
+        "point_targets": [
+          [
+            320,
+            280
+          ],
+          [
+            710,
+            280
+          ]
+        ]
+      },
+      "identity_reference_required": true
+    },
+    {
+      "id": "A23",
+      "path": "assets/planned/scene/white-stage.png",
+      "kind": "scene",
+      "status": "planned",
+      "drawing_id": "D22",
+      "spec": "白色科学示意舞台，继承同一轮廓色与少量色块；无纸纹、软阴影、办公卡片系统。",
+      "canvas_px": [
+        960,
+        640
+      ],
+      "alpha_required": false,
+      "registration": "stage_origin",
+      "anchors": {
+        "stage_origin": [
+          0,
+          0
+        ]
+      },
+      "identity_reference_required": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "duration_frames": 288,
+      "knowledge_task": "让小猫的交接班误判获得可见目标，不把它写成天体运行事实。",
+      "claim_ids": [
+        "M01",
+        "C03"
+      ],
+      "states": [
+        {
+          "id": "S01-A",
+          "start_frame": 0,
+          "end_frame": 96,
+          "asset_ids": [
+            "A01",
+            "A02",
+            "A03"
+          ],
+          "tag": "HOLD",
+          "change": "小猫先看见白天天空里的月亮。",
+          "hold": "先让月亮位置被读到，再起误判。",
+          "trigger_state_ids": [],
+          "voice_line_ids": [
+            "V01"
+          ],
+          "role_goal": "确认天上是什么",
+          "trigger_information": "月亮已经在明亮天空中",
+          "before_after": "平静仰头到将要发问",
+          "variable_regions": "只读现有构图",
+          "invariants": "左猫右月、脚底基线、月亮形状",
+          "contact_points": "无",
+          "symbols": "无",
+          "knowledge_recovery": "观察结果先于小猫反应",
+          "file_status": "planned"
+        },
+        {
+          "id": "S01-B",
+          "start_frame": 96,
+          "end_frame": 216,
+          "asset_ids": [
+            "A01",
+            "A02",
+            "A04",
+            "A05",
+            "A06"
+          ],
+          "tag": "POSE_SWAP",
+          "change": "看见月亮后，猫突然前倾，掏表指天。表格已在握点，与前爪遮挡配合。",
+          "hold": "看清它要赶月亮下班的目标。",
+          "trigger_state_ids": [
+            "S01-A"
+          ],
+          "voice_line_ids": [
+            "V02"
+          ],
+          "role_goal": "让月亮按它的排班表离开",
+          "trigger_information": "白天还见月亮",
+          "before_after": "仰头困惑→越权催班",
+          "variable_regions": "眉眼嘴、肩、手、重心",
+          "invariants": "圆脸身份、机位、月亮位置",
+          "contact_points": "表格grip=(245,435)，前爪在表格前；不是图中心对齐",
+          "symbols": "眉旁两条短压力线",
+          "knowledge_recovery": "错误规则被角色具体执行",
+          "file_status": "planned"
+        },
+        {
+          "id": "S01-C",
+          "start_frame": 216,
+          "end_frame": 288,
+          "asset_ids": [
+            "A01",
+            "A02",
+            "A04",
+            "A05",
+            "A06"
+          ],
+          "tag": "HOLD",
+          "change": "保持催班姿态与不理排班表的月亮。",
+          "hold": "给台词尾音与关系留一拍，不循环摆动。",
+          "trigger_state_ids": [],
+          "voice_line_ids": [
+            "V02"
+          ],
+          "role_goal": "等月亮回应",
+          "trigger_information": "月亮仍然在原位",
+          "before_after": "催促后无人照办",
+          "variable_regions": "无新画稿",
+          "invariants": "手、表、前爪遮挡、月亮不位移",
+          "contact_points": "沿用S01-B",
+          "symbols": "不追加爆点",
+          "knowledge_recovery": "准备切入真实光路",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A01",
+        "A02",
+        "A04或A03",
+        "A05",
+        "A06",
+        "独立表格文字",
+        "字幕"
+      ]
+    },
+    {
+      "id": "S02",
+      "duration_frames": 384,
+      "knowledge_task": "解释月光从太阳到月面再到眼睛的光路。",
+      "claim_ids": [
+        "C01"
+      ],
+      "states": [
+        {
+          "id": "S02-A",
+          "start_frame": 0,
+          "end_frame": 96,
+          "asset_ids": [
+            "A23",
+            "A07"
+          ],
+          "tag": "DIAGRAM",
+          "change": "硬切至横向光路底图；先显示太阳方向、月球、眼睛。",
+          "hold": "辨认三个对象，演员道具退出机制图。",
+          "trigger_state_ids": [
+            "S01-C"
+          ],
+          "voice_line_ids": [
+            "V03"
+          ],
+          "role_goal": "找到月光来源",
+          "trigger_information": "先别催，先问怎么看到",
+          "before_after": "舞台对戏→光路",
+          "variable_regions": "新构图",
+          "invariants": "同一轮廓与色块语言",
+          "contact_points": "无实体接触",
+          "symbols": "太阳方向标签",
+          "knowledge_recovery": "不把月球当自身灯泡",
+          "file_status": "planned"
+        },
+        {
+          "id": "S02-B",
+          "start_frame": 96,
+          "end_frame": 216,
+          "asset_ids": [
+            "A23",
+            "A07",
+            "A08"
+          ],
+          "tag": "REVEAL",
+          "change": "显现太阳至月表的入射箭头。",
+          "hold": "读清光先到月表，非来自地球阴影。",
+          "trigger_state_ids": [
+            "S02-A"
+          ],
+          "voice_line_ids": [
+            "V03"
+          ],
+          "role_goal": "追踪光的第一段",
+          "trigger_information": "太阳是光源",
+          "before_after": "裸底图→入射到表面",
+          "variable_regions": "新增箭头",
+          "invariants": "三对象位置与月面受光侧",
+          "contact_points": "箭头终点贴月表受光区域",
+          "symbols": "一个“太阳光”标签",
+          "knowledge_recovery": "太阳光照亮月面",
+          "file_status": "planned"
+        },
+        {
+          "id": "S02-C",
+          "start_frame": 216,
+          "end_frame": 384,
+          "asset_ids": [
+            "A23",
+            "A07",
+            "A08",
+            "A09"
+          ],
+          "tag": "REVEAL",
+          "change": "增加月表向多方向的少量反射线，其中一条进入眼睛。",
+          "hold": "读完整光路，末尾留安静停顿。",
+          "trigger_state_ids": [
+            "S02-B"
+          ],
+          "voice_line_ids": [
+            "V03"
+          ],
+          "role_goal": "接到月面反射的光",
+          "trigger_information": "月表已收到太阳光",
+          "before_after": "到月表→其中一部分到眼睛",
+          "variable_regions": "只加反射线",
+          "invariants": "底图与入射箭头保持",
+          "contact_points": "反射线从受光月表出发、到眼睛止，不穿球",
+          "symbols": "“一部分反射光”标签；非镜面反射注释",
+          "knowledge_recovery": "白天夜晚同样靠反射太阳光",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A23",
+        "A07",
+        "A08",
+        "A09",
+        "独立定位文字",
+        "字幕"
+      ]
+    },
+    {
+      "id": "S03",
+      "duration_frames": 600,
+      "knowledge_task": "把白天与月亮在当地天空这两个可并存条件放在同一几何图。",
+      "claim_ids": [
+        "C02",
+        "C03"
+      ],
+      "states": [
+        {
+          "id": "S03-A",
+          "start_frame": 0,
+          "end_frame": 216,
+          "asset_ids": [
+            "A23",
+            "A10"
+          ],
+          "tag": "DIAGRAM",
+          "change": "换地球截面，小猫缩为P位置标记；左昼右夜。",
+          "hold": "先读地球自转与白天，暂不加月球。",
+          "trigger_state_ids": [
+            "S02-C"
+          ],
+          "voice_line_ids": [
+            "V04"
+          ],
+          "role_goal": "知道自己站在哪里",
+          "trigger_information": "位置P朝向太阳",
+          "before_after": "眼前天空→地球上的观察点",
+          "variable_regions": "新构图与自转方向符号",
+          "invariants": "太阳从左、昼夜界线不随表演乱转",
+          "contact_points": "P在地球表面；人物放大插图用引线说明",
+          "symbols": "北极上方视角、自转箭头",
+          "knowledge_recovery": "地球自转形成昼夜",
+          "file_status": "planned"
+        },
+        {
+          "id": "S03-B",
+          "start_frame": 216,
+          "end_frame": 432,
+          "asset_ids": [
+            "A23",
+            "A10",
+            "A11"
+          ],
+          "tag": "REVEAL",
+          "change": "加P的当地地平线、月球位置和向太阳/月球的两条视线。",
+          "hold": "对照两条视线同时在地平线上方。",
+          "trigger_state_ids": [
+            "S03-A"
+          ],
+          "voice_line_ids": [
+            "V05"
+          ],
+          "role_goal": "看看同一时刻还能看哪边",
+          "trigger_information": "月球也位于可见半边空间",
+          "before_after": "只有白天条件→白天与月亮在上方同时成立",
+          "variable_regions": "局部地平线、月亮与视线",
+          "invariants": "E、P、太阳方向、地球昼夜色块",
+          "contact_points": "地平线过P且垂直当地天顶；视线不能穿地球",
+          "symbols": "“当地地平线”“上方”；不按比例",
+          "knowledge_recovery": "太阳出现不排斥月亮出现",
+          "file_status": "planned"
+        },
+        {
+          "id": "S03-C",
+          "start_frame": 432,
+          "end_frame": 600,
+          "asset_ids": [
+            "A23",
+            "A10",
+            "A11"
+          ],
+          "tag": "HOLD",
+          "change": "保持两条视线，不让猫先做庆祝动作。",
+          "hold": "让观众自己读到“同时在上方”，不再堆术语。",
+          "trigger_state_ids": [],
+          "voice_line_ids": [
+            "V05"
+          ],
+          "role_goal": "确认可并存",
+          "trigger_information": "两条方向均已显示",
+          "before_after": "关系已经成立→留时间读懂",
+          "variable_regions": "无",
+          "invariants": "所有图解位置",
+          "contact_points": "沿用S03-B",
+          "symbols": "仅两个检查标记",
+          "knowledge_recovery": "“在天上”和“看得见”尚未等同",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A23",
+        "A10",
+        "A11",
+        "独立定位标签",
+        "字幕"
+      ]
+    },
+    {
+      "id": "S04",
+      "duration_frames": 288,
+      "knowledge_task": "用不同时日的相对位置对照解释没有固定交接班。",
+      "claim_ids": [
+        "C04",
+        "M01"
+      ],
+      "states": [
+        {
+          "id": "S04-A",
+          "start_frame": 0,
+          "end_frame": 144,
+          "asset_ids": [
+            "A23",
+            "A12"
+          ],
+          "tag": "DIAGRAM",
+          "change": "切轨道俯视图，标“某一天”；太阳在左，月球在地球上方。",
+          "hold": "看清这是新视角与不同日期比较。",
+          "trigger_state_ids": [
+            "S03-C"
+          ],
+          "voice_line_ids": [
+            "V06"
+          ],
+          "role_goal": "核查自己的固定排班",
+          "trigger_information": "月亮有绕地球的轨道运动",
+          "before_after": "当地地平线图→相对位置图",
+          "variable_regions": "新底图",
+          "invariants": "该场太阳方向与地球位置",
+          "contact_points": "无；示意月球不碰轨道或地球",
+          "symbols": "“不同时日示意，非实时速度”",
+          "knowledge_recovery": "月球与太阳相对方向可变",
+          "file_status": "planned"
+        },
+        {
+          "id": "S04-B",
+          "start_frame": 144,
+          "end_frame": 288,
+          "asset_ids": [
+            "A23",
+            "A13"
+          ],
+          "tag": "DIAGRAM",
+          "change": "直接换到“另一天”，月球在地球右方，太阳地球不动；不插补匀速绕圈。",
+          "hold": "比较相对方向，回收排班误判。",
+          "trigger_state_ids": [
+            "S04-A"
+          ],
+          "voice_line_ids": [
+            "V06"
+          ],
+          "role_goal": "发现表格不能固定套用",
+          "trigger_information": "第二个日期的月球方向改变",
+          "before_after": "相对方向A→B",
+          "variable_regions": "月球位置、日期标签",
+          "invariants": "地球、太阳方向、轨道、左侧受光原则",
+          "contact_points": "无",
+          "symbols": "小表格角标划掉固定时段；仅隐喻",
+          "knowledge_recovery": "没有固定太阳月亮交换班时刻",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A23",
+        "A12或A13",
+        "独立日期与视角注释",
+        "字幕"
+      ]
+    },
+    {
+      "id": "S05",
+      "duration_frames": 720,
+      "knowledge_task": "补齐看见的另一条件，即亮面与天空背景能否被辨认。",
+      "claim_ids": [
+        "C03",
+        "C05",
+        "M01"
+      ],
+      "states": [
+        {
+          "id": "S05-A",
+          "start_frame": 0,
+          "end_frame": 120,
+          "asset_ids": [
+            "A01",
+            "A14"
+          ],
+          "tag": "POSE_SWAP",
+          "change": "回到小猫仰头寻找；这次月亮不显示为清楚轮廓。",
+          "hold": "先建立“在天上未必找得到”的问题。",
+          "trigger_state_ids": [
+            "S04-B"
+          ],
+          "voice_line_ids": [
+            "V07"
+          ],
+          "role_goal": "找到月亮",
+          "trigger_information": "解释位置后仍找不到",
+          "before_after": "自信排班→找寻受挫",
+          "variable_regions": "猫肩手视线与口型",
+          "invariants": "身份、左侧机位、脚底",
+          "contact_points": "手掌遮额为自体接近；不造太阳灼伤段子",
+          "symbols": "眉间一条挫败折线",
+          "knowledge_recovery": "提出背景亮度问题",
+          "file_status": "planned"
+        },
+        {
+          "id": "S05-B",
+          "start_frame": 120,
+          "end_frame": 312,
+          "asset_ids": [
+            "A23",
+            "A15"
+          ],
+          "tag": "DIAGRAM",
+          "change": "显示太阳光在大气中散射，天空光到眼睛。",
+          "hold": "用一个作用解释背景怎么亮，避免追加蓝光波长知识。",
+          "trigger_state_ids": [
+            "S05-A"
+          ],
+          "voice_line_ids": [
+            "V08"
+          ],
+          "role_goal": "解释背景亮起来的原因",
+          "trigger_information": "太阳光进入大气",
+          "before_after": "搜索失败→背景机制",
+          "variable_regions": "新增散射路径",
+          "invariants": "箭头来自太阳光、只在大气作用点分出",
+          "contact_points": "路径起止接在标定对象，不穿月球",
+          "symbols": "“大气”“散射”",
+          "knowledge_recovery": "白天天空明亮有物理来源",
+          "file_status": "planned"
+        },
+        {
+          "id": "S05-C",
+          "start_frame": 312,
+          "end_frame": 504,
+          "asset_ids": [
+            "A23",
+            "A16"
+          ],
+          "tag": "DIAGRAM",
+          "change": "同一块月亮复制到暗、亮两种背景；月亮自身像素保持。",
+          "hold": "先左后右读，画面只改变一个变量。",
+          "trigger_state_ids": [
+            "S05-B"
+          ],
+          "voice_line_ids": [
+            "V08"
+          ],
+          "role_goal": "辨出同一月面",
+          "trigger_information": "背景亮度改变",
+          "before_after": "月面一样→显眼程度不同",
+          "variable_regions": "仅背景色块",
+          "invariants": "月面RGB、形状、大小、无透明度变化",
+          "contact_points": "不适用",
+          "symbols": "“对比示意，非测量”",
+          "knowledge_recovery": "不是月亮白天熄灭或透明",
+          "file_status": "planned"
+        },
+        {
+          "id": "S05-D",
+          "start_frame": 504,
+          "end_frame": 720,
+          "asset_ids": [
+            "A23",
+            "A17"
+          ],
+          "tag": "REVEAL",
+          "change": "依口播先加位置条件，再加辨认条件，两条横向展开。",
+          "hold": "将前面两类证据合并为可检查的条件。",
+          "trigger_state_ids": [
+            "S05-C"
+          ],
+          "voice_line_ids": [
+            "V09"
+          ],
+          "role_goal": "重新检查能不能看见",
+          "trigger_information": "位置与显眼程度都已解释",
+          "before_after": "单一位置条件→两类条件并列",
+          "variable_regions": "两项短标签逐个到达",
+          "invariants": "条件顺序、同一色块与线条",
+          "contact_points": "无",
+          "symbols": "“先假设视线无遮挡”；不是充分条件公式",
+          "knowledge_recovery": "地平线上方仍不保证能辨认",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A01或A23",
+        "A14或图解A15/A16/A17",
+        "短标签",
+        "字幕"
+      ]
+    },
+    {
+      "id": "S06",
+      "duration_frames": 600,
+      "knowledge_task": "用新月检验“只要白天在天上就最好找”的过度推论。",
+      "claim_ids": [
+        "C06",
+        "M01"
+      ],
+      "states": [
+        {
+          "id": "S06-A",
+          "start_frame": 0,
+          "end_frame": 120,
+          "asset_ids": [
+            "A23",
+            "A18"
+          ],
+          "tag": "POSE_SWAP",
+          "change": "小猫挺胸举指，新一轮自信先于判定；右侧留问题文字。",
+          "hold": "给观众思考新月猜测；不放表示正确的勾。",
+          "trigger_state_ids": [
+            "S05-D"
+          ],
+          "voice_line_ids": [
+            "V10"
+          ],
+          "role_goal": "用新月找到最佳白天月亮",
+          "trigger_information": "刚学过月亮可在白天天空",
+          "before_after": "受挫→得意的新猜测",
+          "variable_regions": "眉眼、嘴、肩、举爪",
+          "invariants": "用户猫的身份识别点",
+          "contact_points": "无道具接触",
+          "symbols": "一个问号",
+          "knowledge_recovery": "把理解题演成角色预测",
+          "file_status": "planned"
+        },
+        {
+          "id": "S06-B",
+          "start_frame": 120,
+          "end_frame": 312,
+          "asset_ids": [
+            "A23",
+            "A19"
+          ],
+          "tag": "DIAGRAM",
+          "change": "显示新月空间关系，太阳照亮月球朝太阳一侧；朝地球侧暗。",
+          "hold": "读清“朝向地球的面”与“整个月球”区别。",
+          "trigger_state_ids": [
+            "S06-A"
+          ],
+          "voice_line_ids": [
+            "V11"
+          ],
+          "role_goal": "核查月面哪边被照亮",
+          "trigger_information": "新月的光照方向到达",
+          "before_after": "白天在天上→面向地球面仍暗",
+          "variable_regions": "新构图",
+          "invariants": "阳光来自左、月球向地球侧暗",
+          "contact_points": "不把太阳—月球—地球精确共线，不默认每次日食",
+          "symbols": "“示意，不按比例”“向地球面”",
+          "knowledge_recovery": "新月不可见主因不是月球没上天",
+          "file_status": "planned"
+        },
+        {
+          "id": "S06-C",
+          "start_frame": 312,
+          "end_frame": 504,
+          "asset_ids": [
+            "A23",
+            "A20"
+          ],
+          "tag": "DIAGRAM",
+          "change": "换地面视角，近太阳方向只给教学虚线位置提示，没有可见黑圆盘。",
+          "hold": "把空间关系还原到肉眼通常看不到的结果。",
+          "trigger_state_ids": [
+            "S06-B"
+          ],
+          "voice_line_ids": [
+            "V11"
+          ],
+          "role_goal": "理解天空里为什么难找",
+          "trigger_information": "朝地球面暗且近太阳方向",
+          "before_after": "光照原因→地面结果",
+          "variable_regions": "视角变化",
+          "invariants": "虚线只表示位置，不当真实轮廓",
+          "contact_points": "不适用",
+          "symbols": "“位置提示，非实际可见轮廓”",
+          "knowledge_recovery": "仍不能从白天同升落推出最好找",
+          "file_status": "planned"
+        },
+        {
+          "id": "S06-D",
+          "start_frame": 504,
+          "end_frame": 600,
+          "asset_ids": [
+            "A23",
+            "A20",
+            "A21"
+          ],
+          "tag": "FACE_SWAP",
+          "change": "反例已经讲清后，小猫耳外张、肩塌、嘴缩，汗滴到达。以完整姿态差分实现，标签FACE_SWAP说明主要阅读为表情。",
+          "hold": "反应收在事实之后，保留位置提示说明。",
+          "trigger_state_ids": [
+            "S06-C"
+          ],
+          "voice_line_ids": [
+            "V11"
+          ],
+          "role_goal": "接受自己的猜测失败",
+          "trigger_information": "新月通常不可见已显示",
+          "before_after": "得意→尴尬",
+          "variable_regions": "眼口、耳、肩，完整姿态换图",
+          "invariants": "身份、脚底、机制图",
+          "contact_points": "无",
+          "symbols": "一滴汗，不加魂飞生理隐喻",
+          "knowledge_recovery": "失败回扣第二条件",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A23",
+        "A19或A20",
+        "A18或A21",
+        "机制注释",
+        "字幕"
+      ]
+    },
+    {
+      "id": "S07",
+      "duration_frames": 264,
+      "knowledge_task": "回收标题承诺与两类条件，结束在可迁移的判断上。",
+      "claim_ids": [
+        "C03",
+        "C05",
+        "M01"
+      ],
+      "states": [
+        {
+          "id": "S07-A",
+          "start_frame": 0,
+          "end_frame": 96,
+          "asset_ids": [
+            "A01",
+            "A02",
+            "A21",
+            "A05"
+          ],
+          "tag": "HOLD",
+          "change": "回开场。小猫不再举表，表格已在地面，月亮仍在右上。切镜允许道具已放下，不伪称展示了放下动作。",
+          "hold": "用原处境确认白天见月亮正常。",
+          "trigger_state_ids": [
+            "S06-D"
+          ],
+          "voice_line_ids": [
+            "V12"
+          ],
+          "role_goal": "修正最初的规则",
+          "trigger_information": "两个条件与反例已给出",
+          "before_after": "催月亮下班→不再催",
+          "variable_regions": "场景切回；表格放置位置换到floor_rest",
+          "invariants": "月亮与开场位置、猫身份和基线",
+          "contact_points": "表格底边落地，前爪不再夹住它",
+          "symbols": "无",
+          "knowledge_recovery": "兑现标题问题",
+          "file_status": "planned"
+        },
+        {
+          "id": "S07-B",
+          "start_frame": 96,
+          "end_frame": 264,
+          "asset_ids": [
+            "A23",
+            "A17",
+            "A22"
+          ],
+          "tag": "POSE_SWAP",
+          "change": "小猫分别指向位置与辨认条件，最后保持。",
+          "hold": "留最终结论与迁移题停顿；不加新术语。",
+          "trigger_state_ids": [
+            "S07-A"
+          ],
+          "voice_line_ids": [
+            "V12"
+          ],
+          "role_goal": "用正确条件判断",
+          "trigger_information": "已修正交接班误判",
+          "before_after": "尴尬→能解释",
+          "variable_regions": "肩手与视线",
+          "invariants": "身份与两项条件内容",
+          "contact_points": "指向标签，不触碰或推开天体",
+          "symbols": "末尾独立理解题可留作评论区文案",
+          "knowledge_recovery": "位置与可见条件共同决定观测结果",
+          "file_status": "planned"
+        }
+      ],
+      "layers_back_to_front": [
+        "A01或A23",
+        "A02或A17",
+        "A05",
+        "A21或A22",
+        "独立文字",
+        "字幕"
+      ]
+    }
+  ],
+  "review": {
+    "factual_status": "核心正文事实已对照4个机构原始页面；S03几何已明确假设并复算。来源内容仍由执行者负责复核，检查器不代验科学。",
+    "style_status": "planned_only_no_original_art",
+    "user_approved": false,
+    "notes": "仅文字制作交接。未生成任何PNG或视频；未收到原角色图片、实际配音、BGM或平台。参考查看是包内8个证据文件，不是整片复看。131秒为暂定持帧表，不能称实录时长或同步已过。 文字自检发现光路初始锚点可能穿过月球，已把受光点移到月球上缘、太阳和眼睛置于左右上方，确保两段都在表面外；尚未生成图检。",
+    "plan_structure_status": "handoff_checker_passed",
+    "static_original_images_seen": false,
+    "continuous_original_sequence_seen": false,
+    "audio_seen_or_heard": false,
+    "technical_video_decode": "not_applicable",
+    "audience_learning_verified": false
+  }
+}

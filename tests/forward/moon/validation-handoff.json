@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "phase": "handoff",
+  "errors": [],
+  "warnings": [
+    "A01: planned, not a generated drawing",
+    "A02: planned, not a generated drawing",
+    "A03: planned, not a generated drawing",
+    "A04: planned, not a generated drawing",
+    "A05: planned, not a generated drawing",
+    "A06: planned, not a generated drawing",
+    "A07: planned, not a generated drawing",
+    "A08: planned, not a generated drawing",
+    "A09: planned, not a generated drawing",
+    "A10: planned, not a generated drawing",
+    "A11: planned, not a generated drawing",
+    "A12: planned, not a generated drawing",
+    "A13: planned, not a generated drawing",
+    "A14: planned, not a generated drawing",
+    "A15: planned, not a generated drawing",
+    "A16: planned, not a generated drawing",
+    "A17: planned, not a generated drawing",
+    "A18: planned, not a generated drawing",
+    "A19: planned, not a generated drawing",
+    "A20: planned, not a generated drawing",
+    "A21: planned, not a generated drawing",
+    "A22: planned, not a generated drawing",
+    "A23: planned, not a generated drawing"
+  ],
+  "counts": {
+    "output_frames_planned": 3144,
+    "independent_drawings_registered": 22,
+    "primary_states": 21
+  },
+  "limits": "Structure only; not fact, art, motion or user-approval verification."
+}

@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-11",
+  "scope": "Independent forward-use test; no prior conversation content used as project evidence.",
+  "read_skill_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "085b99dee0188e03aaba8f8727d04dd69b925c44853ac39325688f8e9b5710b7"
+    },
+    {
+      "path": "references/research-cases.md",
+      "sha256": "7a420b5b5fad44fdd619d8108d1ddcfd836d8bbbc63c8c967a9bae5e55a5eb4b"
+    },
+    {
+      "path": "references/lessons-and-continuity.md",
+      "sha256": "165b6aa64951b1f2c2cfa70c883e0620b7154070db296e7218694f42d748bf1a"
+    },
+    {
+      "path": "references/topic-and-writing.md",
+      "sha256": "a26ab804ef5eda468981c21083417ae8bf2f92ece8dc3fead34db73c26819a2a"
+    },
+    {
+      "path": "references/art-and-expression.md",
+      "sha256": "9d3985373e2e193f00369c6d943fc2f1d46f5996d0dc8133d2d9957418abf5e5"
+    },
+    {
+      "path": "references/motion-contract.md",
+      "sha256": "e8089256f0b17eb06e087c2d634e86815589e5d6bd902a4018b633b218170f3d"
+    },
+    {
+      "path": "references/plan-contract.md",
+      "sha256": "67dfb29ac4dab06166100fb0b02447fbb672ed7c15c97704d55347d29d2b0eae"
+    },
+    {
+      "path": "assets/episode-plan.example.json",
+      "sha256": "86696cfab7348a7e7d13e9e3212889928d888c65e6452000ea0bd5cb69112653"
+    },
+    {
+      "path": "assets/handoff.template.md",
+      "sha256": "520d6a6c1f63838d4d176243ccef9655d40e68e1b00184aeb342e859262f36bb"
+    },
+    {
+      "path": "references/evidence/INDEX.md",
+      "sha256": "ac2940758adc1ac6db40a35e77a40812b265ce4abfc8a7adfa4510b8265a0ab0"
+    },
+    {
+      "path": "scripts/check_plan.py",
+      "sha256": "aa37c9360df3ad6f0bb82ccc045968b4838f173cd3b806378d850ca6fad0e5e9"
+    },
+    {
+      "path": "references/drawing-states.md",
+      "sha256": "1c443e74ade5a4acc12f70df4ea291276f45c6061e652b26932d829ceec55796"
+    },
+    {
+      "path": "references/evidence/manifest.json",
+      "sha256": "3bbc28752e19112f3121b46fa8d3b957d69338d5dab90011138dbdbb3bdb3c99"
+    }
+  ],
+  "images_actually_opened": [
+    {
+      "path": "falcon-F006500.jpg",
+      "sample": "falcon",
+      "frame": 6500,
+      "nominal_seconds": 216.66666666666666,
+      "source_url": "https://www.bilibili.com/video/BV1UFge6qEty/",
+      "sha256": "8e89c06f0f9acdda485b38b0b17cfde6fbb82858a7a362ca84b0445598d0445c",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "falcon-F006550.jpg",
+      "sample": "falcon",
+      "frame": 6550,
+      "nominal_seconds": 218.33333333333334,
+      "source_url": "https://www.bilibili.com/video/BV1UFge6qEty/",
+      "sha256": "b9fba495df414efe433722c53b372670ab9d975d82472e6751db6e47f8ae5d75",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F000416.jpg",
+      "sample": "peanut",
+      "frame": 416,
+      "nominal_seconds": 13.866666666666667,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "045627f5c9ec6d8e68725e13f35a41944fe9dda4b6af183b9ecab2473519bee1",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F000417.jpg",
+      "sample": "peanut",
+      "frame": 417,
+      "nominal_seconds": 13.9,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "95f5d5285ea37aa5e334f4907a6fa7f9b3757d48770783ff9a82816abe0ea7b3",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001911.jpg",
+      "sample": "orca",
+      "frame": 1911,
+      "nominal_seconds": 76.44,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "ef5ba80f6f81e10103715adfa58659b0d77f17f2147a5dc73651f9161680b88a",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001976.jpg",
+      "sample": "orca",
+      "frame": 1976,
+      "nominal_seconds": 79.04,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "4cd4e0dedf5edfd443821b56192b40dc8d70ce32cdedd5b6e59a313fe50b0b0d",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001992.jpg",
+      "sample": "orca",
+      "frame": 1992,
+      "nominal_seconds": 79.68,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "759583e8a184b8dd3db9c7323e29c866fb4cca192845cb73af958f8488459979",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-eight-drawing-states.png",
+      "sample": "orca",
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "f7587e0790c0c62f8588ec5bb785bcb1b9734d64f44e05f77a870ca85c5456a4",
+      "scope": "Prior research evidence frame/contact sheet. Labels are our research annotations."
+    }
+  ],
+  "sources_actually_opened": [
+    {
+      "url": "https://www.nasa.gov/solar-system/why-can-you-see-the-moon-during-the-day-we-asked-a-nasa-scientist-episode-19/",
+      "title": "Why Can You See the Moon During the Day? We Asked a NASA Scientist: Episode 19",
+      "locator": "正文视频文字稿，第2段（Unlike our Sun开头）；网页提取L257–259",
+      "supports": "月面反射太阳光；月亮在合适天空位置时，白天也能被辨认；满月在天空中与太阳相对。"
+    },
+    {
+      "url": "https://science.nasa.gov/moon/moon-phases/",
+      "title": "Moon Phases — NASA Science",
+      "locator": "3 Quick Facts；New Moon；Daytime Moons；Overview From Space；网页提取L292–324、L332–339、L382–404",
+      "supports": "月亮绕地球运动，月相、升落与太阳的相对位置有关；新月同太阳大致同升落，面向地球的一面未被阳光直接照亮，通常肉眼不可见；具体升落随季节、位置变化。"
+    },
+    {
+      "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+      "title": "Why Is the Sky Blue? — NASA Space Place",
+      "locator": "The Short Answer；正文关于大气散射的段落；网页提取L13–15、L36–46",
+      "supports": "太阳光进入大气后被空气分子等散射，形成明亮的白天天空。"
+    },
+    {
+      "url": "https://www.lpi.usra.edu/education/skytellers/day_night/",
+      "title": "Sky Tellers — About Day and Night — Lunar and Planetary Institute",
+      "locator": "Why Does Earth Have Day and Night? 首段；网页提取L68–69",
+      "supports": "地球自转把观察者带到迎着太阳或背向太阳的一侧，产生昼夜；从北极上方看自转逆时针。"
+    }
+  ],
+  "failed_open": [
+    "https://science.nasa.gov/earth/science/why-is-the-sky-blue/"
+  ],
+  "tools_used": [
+    "functions.exec discovery/orchestration",
+    "exec_command PowerShell Get-Content / Test-Path / New-Item / python -B",
+    "view_image on 8 packaged evidence images",
+    "web search_query and open",
+    "apply_patch for this builder",
+    "load_workspace_dependencies to locate bundled Python after Windows Store alias failed",
+    "finalize_verify.py ran the original checker, checked CSV continuity, simple diagram geometry and unchanged hashes for read skill files; all writes stayed in output directory"
+  ],
+  "runtime_note": "python on PATH was a Windows Store alias, so used the existing bundled Python executable with -X utf8 -B. No dependencies installed.",
+  "not_done": [
+    "no image or video generation",
+    "no GitHub or git operations",
+    "no original video or original audio playback",
+    "no user-cat identity image inspection; none supplied",
+    "no original artwork review",
+    "no user approval asserted"
+  ],
+  "writes_limited_to": "isolated-test-directory (outputs archived here)",
+  "plan_template_used": "assets/episode-plan.example.json parsed and field structure replaced",
+  "handoff_template_used": "assets/handoff.template.md sections covered",
+  "handoff_checker": {
+    "pass": true,
+    "errors": 0,
+    "warnings": 23,
+    "exit_code": 0
+  },
+  "scope_note": "Only existing skill read files hashed; no full-tree immutability claim. No original art generated.",
+  "archive_note": "统一名称及归档路径；所读文字文件哈希对应回测时编写中版本，不是发布版完整性清单。科学图锚点已在执行者原产物中修正。"
+}

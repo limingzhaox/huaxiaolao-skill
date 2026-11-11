@@ -1,0 +1,69 @@
+{
+  "version": "moon-v01-text-handoff-archive",
+  "archive_note": "归档仅含已生成的文字、JSON和CSV；不收录测试机生成脚本。以下散列按统一名称与移植路径后的实际归档文件计算，不替代原执行日志。",
+  "files": [
+    {
+      "path": "episode-plan.json",
+      "bytes": 50856,
+      "sha256": "9bc5996b69cbb45b6bb3618cb4b20741c25ab02a35ea6870cb9fc3fd7680a64c"
+    },
+    {
+      "path": "exposure.csv",
+      "bytes": 2617,
+      "sha256": "9ec3b20712813b3de2448652140e8c6e5e6f5a3327a260c6e0ce3186896605c6"
+    },
+    {
+      "path": "facts-and-sources.md",
+      "bytes": 6455,
+      "sha256": "f6d030198f3468a333aff1fbe4dc281eb5df7efa717a84b1cd96d057c9e77c50"
+    },
+    {
+      "path": "handoff.md",
+      "bytes": 3691,
+      "sha256": "629356f97ae6b3a1473e58869ddd11e6817655b5c96b70504ec2102c650e8380"
+    },
+    {
+      "path": "narration.md",
+      "bytes": 3206,
+      "sha256": "3457c24d7d01909bbcbca9a3aeaf3a08e77b40f923f8a61b1511977da8073b06"
+    },
+    {
+      "path": "read-audit.json",
+      "bytes": 8479,
+      "sha256": "867cf339d850b31e14c439c28baf928c7b5c57ece0e504c34a951e9a42fe69c2"
+    },
+    {
+      "path": "reading-and-tools.md",
+      "bytes": 4819,
+      "sha256": "0bf39c21d46995a6616a416bd7ca878c34668a9a9a0d51cc30e0662b60437543"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1329,
+      "sha256": "8dfc6374a43c011e4415d7b191a69f23f4558c178f1aa3fdfa4d603bd4831d64"
+    },
+    {
+      "path": "topic-decision.md",
+      "bytes": 2779,
+      "sha256": "d5fd68fa3285375daa02e612cce0476f2fdd2fa91b7a8347f470b0e56665ecce"
+    },
+    {
+      "path": "validation-handoff.json",
+      "bytes": 1318,
+      "sha256": "8ac830033069222f443ec412e8c8e06c78b592b7d30a9303206d76594f92ff04"
+    },
+    {
+      "path": "validation-review.md",
+      "bytes": 3243,
+      "sha256": "67eadcf9d1cd11a8f9a66a8b5350820bf7508a8510a4a38407f220ea302e19e0"
+    },
+    {
+      "path": "visual-and-states.md",
+      "bytes": 23263,
+      "sha256": "501b3ba87a63017f32aee29ce9b5a31fdaf25d9179cdfb0d4014dbaca582ebf8"
+    }
+  ],
+  "original_png_count": 0,
+  "original_video_count": 0,
+  "checker_pass": true
+}
