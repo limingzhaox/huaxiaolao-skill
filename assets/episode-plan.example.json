@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "project": {
+    "title": "正方形边长翻倍，为什么面积变四倍？",
+    "audience": "能识别正方形、容易将长度倍数与面积倍数混淆的观众",
+    "promise": "用四块相同方纸解释边长和面积的倍数关系",
+    "comprehension_question": "边长变成三倍，同样大小的方格需要几块？为什么？",
+    "video_execution": false
+  },
+  "format": {"width": 1080, "height": 1920, "fps": 24, "layout": "portrait-horizontal", "stage": {"x": 60, "y": 460, "width": 960, "height": 640}},
+  "claims": [
+    {"id": "C1", "statement": "正方形边长从a变为2a，面积从a²变为4a²。", "kind": "fact", "verification": "verified", "sources": [{"kind": "derivation", "locator": "正方形面积定义与2×2分割", "supports": "两行两列共四块a×a方格拼成边长2a的正方形", "method": "(2a)×(2a)=4a²，a>0"}], "limits": "讨论同形正方形，长度与面积使用对应单位。"},
+    {"id": "C2", "statement": "兔子包工头以为边长加倍只需两块纸，遭遇材料不足。", "kind": "metaphor", "verification": "fictional", "sources": [], "limits": "角色误判只负责提出问题，不作为观众普遍误解的统计结论。"}
+  ],
+  "voice_lines": [
+    {"id": "V1", "text": "兔子要把这块方地的边长翻倍。它抱来两块同样大的方纸，准备开工。", "claim_ids": ["C2"]},
+    {"id": "V2", "text": "横着够了，竖着还差一排。", "claim_ids": ["C1"]},
+    {"id": "V3", "text": "补齐才发现，一共要四块。边长翻倍，面积就变成了四倍。", "claim_ids": ["C1"]}
+  ],
+  "assets": [
+    {"id": "A1", "path": "drawings/01-rabbit-ready.png", "kind": "character", "status": "planned", "drawing_id": "D1"},
+    {"id": "A2", "path": "drawings/02-two-tiles.png", "kind": "scene", "status": "planned", "drawing_id": "D2"},
+    {"id": "A3", "path": "drawings/03-rabbit-stop.png", "kind": "character", "status": "planned", "drawing_id": "D3"},
+    {"id": "A4", "path": "drawings/04-four-tiles.png", "kind": "diagram", "status": "planned", "drawing_id": "D4"},
+    {"id": "A5", "path": "drawings/05-rabbit-realizes.png", "kind": "character", "status": "planned", "drawing_id": "D5"}
+  ],
+  "scenes": [
+    {"id": "S1", "duration_frames": 120, "knowledge_task": "建立扩建目标与两块纸的错误预期", "claim_ids": ["C2"], "states": [
+      {"id": "S1-A", "start_frame": 0, "end_frame": 48, "asset_ids": ["A1"], "tag": "HOLD", "change": "兔子举方纸，看向虚线扩建目标", "hold": "读出原正方形和扩建边长", "trigger_state_ids": [], "voice_line_ids": ["V1"]},
+      {"id": "S1-B", "start_frame": 48, "end_frame": 120, "asset_ids": ["A2"], "tag": "POSE_SWAP", "change": "两块纸拼成一行，目标下半空缺可见", "hold": "让观众发现缺口", "trigger_state_ids": ["S1-A"], "voice_line_ids": ["V1"]}
+    ]},
+    {"id": "S2", "duration_frames": 72, "knowledge_task": "把缺一排变成行动失败与读图证据", "claim_ids": ["C1"], "states": [
+      {"id": "S2-A", "start_frame": 0, "end_frame": 24, "asset_ids": ["A2", "A3"], "tag": "FACE_SWAP", "change": "兔子眼睛移向空缺，手停住；纸的位置不变", "hold": "反应由看见缺口触发", "trigger_state_ids": ["S1-B"], "voice_line_ids": ["V2"]},
+      {"id": "S2-B", "start_frame": 24, "end_frame": 72, "asset_ids": ["A2", "A3"], "tag": "HOLD", "change": "保持缺口与上排两块的对照", "hold": "读完横向与纵向的差异", "trigger_state_ids": [], "voice_line_ids": ["V2"]}
+    ]},
+    {"id": "S3", "duration_frames": 144, "knowledge_task": "补齐2×2并解释面积倍数", "claim_ids": ["C1"], "states": [
+      {"id": "S3-A", "start_frame": 0, "end_frame": 48, "asset_ids": ["A4"], "tag": "DIAGRAM", "change": "四格对齐，左右和上下均为2a，填充同色", "hold": "数清两行两列", "trigger_state_ids": ["S2-B"], "voice_line_ids": ["V3"]},
+      {"id": "S3-B", "start_frame": 48, "end_frame": 96, "asset_ids": ["A4", "A5"], "tag": "POSE_SWAP", "change": "兔子摊开空袋，回看四格；图解保持", "hold": "材料支出的小后果回扣数量", "trigger_state_ids": ["S3-A"], "voice_line_ids": ["V3"]},
+      {"id": "S3-C", "start_frame": 96, "end_frame": 144, "asset_ids": ["A4"], "tag": "HOLD", "change": "保留四格，角色退出知识阅读区域", "hold": "留下清楚结论供配音收尾", "trigger_state_ids": [], "voice_line_ids": ["V3"]}
+    ]}
+  ],
+  "review": {"factual_status": "推导已列出，需由执行者复算", "style_status": "unreviewed", "user_approved": false, "notes": "结构示例，没有生成图片，不是合格画风样片；14秒仅为演示时序，口播实录后重新对齐。"}
+}
