@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-11",
+  "interpretation": "path_audit exit 1 means no matches; other checks exit 0. This records structural checks, not art acceptance.",
+  "checks": [
+    {
+      "name": "frontmatter",
+      "exit_code": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "name": "unit_and_portability",
+      "exit_code": 0,
+      "output": "test_gap_in_state_coverage_is_rejected (test_contract.HandoffContract.test_gap_in_state_coverage_is_rejected) ... ok\ntest_generated_status_requires_actual_file (test_contract.HandoffContract.test_generated_status_requires_actual_file) ... ok\ntest_missing_asset_reference_is_rejected (test_contract.HandoffContract.test_missing_asset_reference_is_rejected) ... ok\ntest_overlap_in_state_coverage_is_rejected (test_contract.HandoffContract.test_overlap_in_state_coverage_is_rejected) ... ok\ntest_paths_cannot_escape_episode_directory (test_contract.HandoffContract.test_paths_cannot_escape_episode_directory) ... ok\ntest_pending_fact_stays_draft (test_contract.HandoffContract.test_pending_fact_stays_draft) ... ok\ntest_planned_package_is_valid_plan_but_not_generated_art (test_contract.HandoffContract.test_planned_package_is_valid_plan_but_not_generated_art) ... ok\ntest_reaction_cannot_precede_trigger (test_contract.HandoffContract.test_reaction_cannot_precede_trigger) ... ok\ntest_source_without_locator_cannot_pass_handoff (test_contract.HandoffContract.test_source_without_locator_cannot_pass_handoff) ... ok\ntest_evidence_change_is_detected (test_portability.PortablePackage.test_evidence_change_is_detected) ... ok\ntest_missing_reference_is_detected (test_portability.PortablePackage.test_missing_reference_is_detected) ... ok\ntest_relocated_package_links_and_images (test_portability.PortablePackage.test_relocated_package_links_and_images) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.410s\n\nOK\n"
+    },
+    {
+      "name": "package",
+      "exit_code": 0,
+      "output": "{\n  \"pass\": true,\n  \"markdown_local_links_checked\": 109,\n  \"evidence_files_checked\": 23,\n  \"errors\": [],\n  \"limits\": \"Does not validate scientific truth, image meaning, author permissions or artistic acceptance.\"\n}\n"
+    },
+    {
+      "name": "sample_plan",
+      "exit_code": 0,
+      "output": "{\n  \"pass\": true,\n  \"phase\": \"handoff\",\n  \"errors\": [],\n  \"warnings\": [\n    \"A1: planned, not a generated drawing\",\n    \"A2: planned, not a generated drawing\",\n    \"A3: planned, not a generated drawing\",\n    \"A4: planned, not a generated drawing\",\n    \"A5: planned, not a generated drawing\"\n  ],\n  \"counts\": {\n    \"output_frames_planned\": 336,\n    \"independent_drawings_registered\": 5,\n    \"primary_states\": 7\n  },\n  \"limits\": \"Structure only; not fact, art, motion or user-approval verification.\"\n}\n"
+    },
+    {
+      "name": "forward_plan",
+      "exit_code": 0,
+      "output": "{\n  \"pass\": true,\n  \"phase\": \"handoff\",\n  \"errors\": [],\n  \"warnings\": [\n    \"A01: planned, not a generated drawing\",\n    \"A02: planned, not a generated drawing\",\n    \"A03: planned, not a generated drawing\",\n    \"A04: planned, not a generated drawing\",\n    \"A05: planned, not a generated drawing\",\n    \"A06: planned, not a generated drawing\",\n    \"A07: planned, not a generated drawing\",\n    \"A08: planned, not a generated drawing\",\n    \"A09: planned, not a generated drawing\",\n    \"A10: planned, not a generated drawing\",\n    \"A11: planned, not a generated drawing\",\n    \"A12: planned, not a generated drawing\",\n    \"A13: planned, not a generated drawing\",\n    \"A14: planned, not a generated drawing\",\n    \"A15: planned, not a generated drawing\",\n    \"A16: planned, not a generated drawing\",\n    \"A17: planned, not a generated drawing\",\n    \"A18: planned, not a generated drawing\",\n    \"A19: planned, not a generated drawing\",\n    \"A20: planned, not a generated drawing\",\n    \"A21: planned, not a generated drawing\",\n    \"A22: planned, not a generated drawing\",\n    \"A23: planned, not a generated drawing\"\n  ],\n  \"counts\": {\n    \"output_frames_planned\": 3144,\n    \"independent_drawings_registered\": 22,\n    \"primary_states\": 21\n  },\n  \"limits\": \"Structure only; not fact, art, motion or user-approval verification.\"\n}\n"
+    },
+    {
+      "name": "path_audit",
+      "exit_code": 1,
+      "output": ""
+    }
+  ]
+}
