@@ -1,0 +1,4 @@
+interface:
+  display_name: "花小烙skill"
+  short_description: "从参考证据到选题、口播和逐状态画稿，沉淀可复现的知识漫画创作流程"
+  default_prompt: "使用 $huaxiaolao-skill，从知识问题开始，完成原创口播、视觉状态计划和制作交付约束。"
