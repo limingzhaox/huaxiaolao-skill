@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "packaged_evidence": [
+    {
+      "path": "peanut-F000416.jpg",
+      "sample": "peanut",
+      "frame": 416,
+      "nominal_seconds": 13.866666666666667,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "045627f5c9ec6d8e68725e13f35a41944fe9dda4b6af183b9ecab2473519bee1",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F000417.jpg",
+      "sample": "peanut",
+      "frame": 417,
+      "nominal_seconds": 13.9,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "95f5d5285ea37aa5e334f4907a6fa7f9b3757d48770783ff9a82816abe0ea7b3",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F000540.jpg",
+      "sample": "peanut",
+      "frame": 540,
+      "nominal_seconds": 18.0,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "bd9ab154937a21c5574e8070bf737fcf900a1e58859b55cca617da74b52168d5",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F000570.jpg",
+      "sample": "peanut",
+      "frame": 570,
+      "nominal_seconds": 19.0,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "b24c577565f82247680e380d0e5747a8eac491137c3e8b92836c3cafe1ffd809",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F003254.jpg",
+      "sample": "peanut",
+      "frame": 3254,
+      "nominal_seconds": 108.46666666666667,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "7eeb5a329794b73d3c5731b7d23032c33f014fb9d5e8984a77cf6c8a28fa9cc7",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F003420.jpg",
+      "sample": "peanut",
+      "frame": 3420,
+      "nominal_seconds": 114.0,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "1dd98b71dd5af1e3fa0ea197ef92d266f1d7d02def3ea7125c166c0c61f41ddb",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "peanut-F003690.jpg",
+      "sample": "peanut",
+      "frame": 3690,
+      "nominal_seconds": 123.0,
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "1c5698f8fe1e90a92bf58e0044adee7f90c8dafc892a42a6363dd6b5b9cee543",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F000568.jpg",
+      "sample": "orca",
+      "frame": 568,
+      "nominal_seconds": 22.72,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "8ccd2a80f07d4579d06f85e2151954c99c7f0f9ee35f72758f2246634ad4a863",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F000629.jpg",
+      "sample": "orca",
+      "frame": 629,
+      "nominal_seconds": 25.16,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "88bb9b4af4a26d0479dead4a0986cc86459a88f1e2902de0d6b983177028138c",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001800.jpg",
+      "sample": "orca",
+      "frame": 1800,
+      "nominal_seconds": 72.0,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "7a84519c176caa0466d5c58c37d7398599c66d0a12f61d2a3198628ff417b5d2",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001911.jpg",
+      "sample": "orca",
+      "frame": 1911,
+      "nominal_seconds": 76.44,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "ef5ba80f6f81e10103715adfa58659b0d77f17f2147a5dc73651f9161680b88a",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001976.jpg",
+      "sample": "orca",
+      "frame": 1976,
+      "nominal_seconds": 79.04,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "4cd4e0dedf5edfd443821b56192b40dc8d70ce32cdedd5b6e59a313fe50b0b0d",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F001992.jpg",
+      "sample": "orca",
+      "frame": 1992,
+      "nominal_seconds": 79.68,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "759583e8a184b8dd3db9c7323e29c866fb4cca192845cb73af958f8488459979",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F002410.jpg",
+      "sample": "orca",
+      "frame": 2410,
+      "nominal_seconds": 96.4,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "d734ed89a490ee4df42aa0cdca51e5ae7d53f3aa8acd85a2366fe73171817099",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F002475.jpg",
+      "sample": "orca",
+      "frame": 2475,
+      "nominal_seconds": 99.0,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "9b1b97dd96f03ee1cf85bb5cca3f59a92a38282e321920a5ef06385d2fe7a13a",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F004414.jpg",
+      "sample": "orca",
+      "frame": 4414,
+      "nominal_seconds": 176.56,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "f9dc63cdf291ac14cc08f510135a206031ecacd6d541387a62043f66cb08f13a",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "orca-F004443.jpg",
+      "sample": "orca",
+      "frame": 4443,
+      "nominal_seconds": 177.72,
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "f1e99dacd965161c8b8cb9ed03677c2b78b225cc988abccc8e71b72366fdd8e9",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "falcon-F006500.jpg",
+      "sample": "falcon",
+      "frame": 6500,
+      "nominal_seconds": 216.66666666666666,
+      "source_url": "https://www.bilibili.com/video/BV1UFge6qEty/",
+      "sha256": "8e89c06f0f9acdda485b38b0b17cfde6fbb82858a7a362ca84b0445598d0445c",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "falcon-F006550.jpg",
+      "sample": "falcon",
+      "frame": 6550,
+      "nominal_seconds": 218.33333333333334,
+      "source_url": "https://www.bilibili.com/video/BV1UFge6qEty/",
+      "sha256": "b9fba495df414efe433722c53b372670ab9d975d82472e6751db6e47f8ae5d75",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "falcon-F006600.jpg",
+      "sample": "falcon",
+      "frame": 6600,
+      "nominal_seconds": 220.0,
+      "source_url": "https://www.bilibili.com/video/BV1UFge6qEty/",
+      "sha256": "28bbc176065a7c559fd12d014595d5562ccb690665db2a9940f422b7392a8514",
+      "scope": "Selected prior-inspected evidence frame, not proof of full-video manual review."
+    },
+    {
+      "path": "falcon-F000475-hd.png",
+      "sample": "falcon",
+      "source_url": "https://www.bilibili.com/video/BV1UFge6qEty/",
+      "sha256": "69865cdbcf01dff2264750add827cd15a32c7cad9b64af5844b8f65bedcb1d01",
+      "scope": "Prior research evidence frame/contact sheet. Labels are our research annotations."
+    },
+    {
+      "path": "orca-eight-drawing-states.png",
+      "sample": "orca",
+      "source_url": "https://www.bilibili.com/video/BV1GQ4y1Y7HJ/",
+      "sha256": "f7587e0790c0c62f8588ec5bb785bcb1b9734d64f44e05f77a870ca85c5456a4",
+      "scope": "Prior research evidence frame/contact sheet. Labels are our research annotations."
+    },
+    {
+      "path": "peanut-F000416-000439-contact.jpg",
+      "sample": "peanut",
+      "source_url": "https://www.bilibili.com/video/BV1je4y177Ln/",
+      "sha256": "1b460e5313d2f85d4ad1c6468274516dcf0922e7b50e8daa4d90763067997afa",
+      "scope": "Prior research evidence frame/contact sheet. Labels are our research annotations."
+    }
+  ],
+  "rights": "Reference frames attributed to original creator 画渣花小烙, retained as study evidence; not original production assets.",
+  "audio_listened": false,
+  "all_frames_packaged": false
+}
